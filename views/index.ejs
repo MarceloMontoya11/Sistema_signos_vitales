@@ -1,0 +1,13 @@
+
+        <%- include('header') -%>
+        
+        <h1>Sistema de Monitoreo IOT de Signos Vitales</h1>
+        
+        <h3>Finalidad del proyecto</h3>
+        <p>Diseñar e implementar un sistema de monitoreo de temperatura corporal, pulso cardíaco y porcentaje de saturación de
+            oxígeno de la hemoglobina</p>
+        <p>Aportando una opcion eficiente para la prevención de contagios de enfermedades como el Covid-19 en el Perú</p>
+        <% pacien.forEach(pacient => { %>
+        <%= pacien.email %>
+        <% }) %>
+        <%- include('footer') -%>
